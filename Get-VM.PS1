@@ -1,6 +1,6 @@
 Get-VM |
 
-Select Name,PowerState,
+Select-object Name,PowerState,
 
     @{N='VMHost';E={$_.VMHost.Name}},
 
